@@ -29,14 +29,15 @@
 
 finwise-ai/
 │
-├── app/ # Main app code
-│ ├── main.py # Streamlit entry point
-│ ├── llm_engine.py # Handles LLM interaction
-│ ├── utils.py # Utility functions
-│ ├── financial_tools.py # SIP, EMI calculators
-│ ├── visuals.py # Chart generation
+├── app/                     # Core app logic
+│   ├── __init__.py
+│   ├── main.py              # Entry point for Streamlit app
+│   ├── llm_engine.py        # OpenAI/GPT integration
+│   ├── utils.py             # Utility functions (optional placeholder)
+│   ├── financial_tools.py   # EMI/SIP calculator logic (placeholder)
+│   ├── visuals.py           # Matplotlib/Plotly charts (placeholder)
 │
-├── docs/ # Sample PDFs or scraped content
-├── data/ # External data files
-├── requirements.txt # Python dependencies
-├── README.md
+├── .gitignore               # Files to ignore (e.g., __pycache__, .env)
+├── .env.example             # Placeholder for OpenAI API key
+├── requirements.txt         # Dependencies list
+├── README.md                # Project overview and instructions
